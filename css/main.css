@@ -95,7 +95,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    color:rgb(207, 201, 115);
+    color:blueviolet;
    }
 
    header .content-wrapper 
@@ -122,19 +122,21 @@ textarea {
    }
 
    /***** put header nav ul li style here -- font-size: 1.125em****/
-   header .content-wrapper {
+   /*header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
     width: 100%; /* differs? */
-    color: rgb(30, 155, 197);
+    color: rgb(30, 155, 197); 
   }
+
+  
 
    footer .social-icons {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: rgb(228, 105, 105);
    }
@@ -149,10 +151,11 @@ textarea {
   .hero-area {
     display: flex;
     justify-content: center;
-    align-items: center;
     color:rgb(77, 233, 194);
     flex-flow: row wrap;
   }
+  
+
 
   aside {
     display: flex;
@@ -165,7 +168,6 @@ textarea {
   .features {
     display: flex;
     justify-content: center;
-    align-items: center;
     color:rgb(96, 185, 37);
     flex-flow: row wrap;
   }
@@ -174,36 +176,23 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     flex-flow: row wrap;
     color:rgb(255, 132, 149);
   }
 
-  .reviews .content-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    color: rgb(245, 186, 225);
-  }
+  
 
   .reviews {
     display: flex;
     justify-content: center;
-   
     flex-flow: row wrap;
     color: rgb(200, 200, 243);
  
   }
-
-  .reviews p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    color: rgb(250, 197, 247);
- 
-  }
+============================================================================================
+          About page  
+============================================================================================
+  
   .mission {
     display: flex;
     justify-content: center;
@@ -219,6 +208,10 @@ textarea {
     flex-flow: row wrap;
     background: #2a423a;
   }
+
+  =========================================================================================================
+            FAQ PAGE
+  =========================================================================================================
 
   .faq {
     display: flex;
