@@ -87,6 +87,180 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /****** Base HEADER and FOOTER styles *******/
+
+   header, 
+   footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    color:rgb(207, 201, 115);
+   }
+
+   header .content-wrapper 
+   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    color: rgb(65, 158, 182);
+   }
+
+   header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:rgb(236, 115, 135);
+    flex-flow: row wrap;
+   }
+
+   header nav ul {
+    display: flex;
+    justify-content: space-around
+    color:rgb(241, 91, 174);
+   }
+
+   /***** put header nav ul li style here -- font-size: 1.125em****/
+   header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0;
+    width: 100%; /* differs? */
+    color: rgb(30, 155, 197);
+  }
+
+   footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(228, 105, 105);
+   }
+
+  footer .social p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(148, 75, 216);
+  }
+
+  .hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(77, 233, 194);
+    flex-flow: row wrap;
+  }
+
+  aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(58, 241, 104);
+    flex-flow: row wrap;
+  }
+
+  .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(96, 185, 37);
+    flex-flow: row wrap;
+  }
+
+  .features .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: row wrap;
+    color:rgb(255, 132, 149);
+  }
+
+  .reviews .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    color: rgb(245, 186, 225);
+  }
+
+  .reviews {
+    display: flex;
+    justify-content: center;
+   
+    flex-flow: row wrap;
+    color: rgb(200, 200, 243);
+ 
+  }
+
+  .reviews p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    color: rgb(250, 197, 247);
+ 
+  }
+  .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    color:rgb(182, 27, 230);
+  }
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(185, 18, 171);
+    flex-flow: row wrap;
+    background: #2a423a;
+  }
+
+  .faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(218, 118, 168);
+    flex-flow: row wrap;
+  }
+
+  .faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:pink;
+    flex-flow: row wrap;
+  }
+
+
+/***** Reviews *****/
+/* reviews */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background: #2a423a;
+}
+
+.reviews h2 {
+  margin-bottom: 25px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
+
+.reviews p {
+  margin: 0;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
