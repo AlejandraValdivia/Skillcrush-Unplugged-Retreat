@@ -102,7 +102,7 @@ header .content-wrapper {
 header h1 {
   margin: 0;
   text-align: center;
-  text-transform:uppercase;
+  text-transform: uppercase;
   letter-spacing: 3px;
 }
 
@@ -157,9 +157,21 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   background: hsla(197, 100%, 63%, 1);
-  background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-  background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-  background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(197, 100%, 63%, 1) 0%,
+    hsla(294, 100%, 55%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(197, 100%, 63%, 1) 0%,
+    hsla(294, 100%, 55%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(197, 100%, 63%, 1) 0%,
+    hsla(294, 100%, 55%, 1) 100%
+  );
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1);
   height: 100%;
   text-align: center;
@@ -175,7 +187,7 @@ nav ul li a {
 }
 
 #contact h3 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin-bottom: 20px;
 }
 
@@ -270,8 +282,8 @@ footer {
 
 footer a {
   color: #706363;
+  font-size: 0.75em;
 }
-
 
 /*****WELCOME AREA*****/
 .welcome {
