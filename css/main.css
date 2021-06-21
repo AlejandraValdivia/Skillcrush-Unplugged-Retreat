@@ -283,6 +283,7 @@ footer {
 footer a {
   color: #706363;
   font-size: 0.75em;
+  margin-top: auto;
 }
 
 /*****WELCOME AREA*****/
